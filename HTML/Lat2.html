@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Latihan Membuat Form</title>
+	</head>
+	<body>
+		<form action="Lat2.html" method="get">
+		Nama : <input type="text" name="Nama" placeholder="Nama Kamu" />
+		<br />
+		Password : <input type="password" name="Password" />
+		<br />
+		Jenis Kelamin :
+		<input type="radio" name="Jenis_Kelamin" value="laki - laki" checked />
+		Laki - Laki
+		<input type="radio" name="Jenis_Kelamin" value="Perempuan" />
+		Perempuan
+		<br />
+		Hobi :
+		<input type="checkbox" name="hobi_baca" /> Baca Buku
+		<input type="checkbox" name="hobi_nulis" /> Menulis
+		<input type="checkbox" name="hobi_game" checked /> Main Game
+		<br />
+		Asal Kota :
+		<select name="asal_kota">
+			<option value="jkt">Jakarta</option>
+			<option value="bdg">Bandung</option>
+			<option value="srb" selected>Surabaya</option>
+		</select>
+		<br />
+		Komentar Anda :
+		<textarea name="komentar" rows="5" cols="20">
+			Masukkan Komentar Anda.
+		</textarea>
+		<br />
+		
+		<input type="submit" value="Proses!" />
+		
+		</form>
+	</body>
+</html>
