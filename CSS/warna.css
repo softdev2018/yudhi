@@ -1,0 +1,18 @@
+body{
+	font-size:23px;
+	color:red;
+}
+p{
+	text-align: justify;
+	font-family: calibri, helvetica, sans-serif;
+}
+p::first-letter{
+	font-size:30px;
+	color:blue;
+	float:left;
+}
+h1, h2{
+	text-decoration: underline;
+	font-size: 20px;
+	color: blue;
+}

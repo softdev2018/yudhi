@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Belajar JavaScript</title>
+		<script type="text/javascript">
+		function tambah_semangat()
+		{
+			var a=document.getElementById("div_semangat");
+			a.innerHTML+="<p>Sedang belajar javascript, Semangat!!</p>"
+		}
+		</script>
+	</head>
+	<body>
+		<h1>Belajar JavaScript</h1>
+		<p>Sedang belajar javascript</p>
+		Klik tombol ini untuk menambahkan kalimat baru:
+		
+		<button id="tambah" onclick="tambah_semangat()">Semangat!!</button>
+		<div id="div_semangat"></div>
+	</body>
+</html>

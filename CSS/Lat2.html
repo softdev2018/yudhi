@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<style type="text/css">
+		<!-- Metode External Style -->
+		@import url(warna.css);
+		<!-- <link rel="stylesheet" type="text/css" href="warna.css" >-->
+		<!-- Metode Internal Style -->
+		#kalimat{
+			font-weight: bold;
+		}
+		.miring{
+			font-style: italic;
+		}
+		.warna{
+			color: blue;
+		}
+		h2{
+			background-color: black;
+			color: white;
+		}
+	</style>
+	<head>
+		<title>Belajar CSS</title>
+	</head>
+	<body>
+		<p>
+			<strong>Ini adalah <em>sebuah</em> paragraf</strong>
+		</p>
+		<div id="kalimat">
+			Ini adalah <span class="miring">sebuah</span> <span class="warna">paragraf</span>
+		</div>
+		<br />
+		
+		<!-- Metode Inline Style -->
+		<h2 style="background-color:black; color:white">
+			Text ini akan berwana putih dan background hitam.
+		</h2>
+		<br />
+		
+		<!-- Metode Internal Style -->
+		<h2>
+			Text ini akan berwarna putih dan background hitam.
+		</h2>
+		<br />
+		<!-- Metode External Style -->
+		<h3>
+			Text ini akan berwarna putih dan background hitam.
+		</h3>
+		<br />
+	</body>
+</html>

@@ -1,0 +1,12 @@
+1. http://www.duniailkom.com/belajar-html-pengertian-tag-span-dan-div/
+
+2. http://www.duniailkom.com/tutorial-belajar-css-part-1-pengertian-css-apa-yang-dimaksud-dengan-css/
+
+
+Penggunaan tag dan div
+Metode Input CSS : Inline Style, Internal Style Sheets, External Style Sheets.
+h2 (selecctor){ background-color(property):black(value); color:white;}
+aturan dan cara penulisan.
+jenis selector dasar.({. untuk class}, {# untuk id}, {[href]})
+perioritas selector (!important)
+pengertian inheritance penurunan dari induknya.
