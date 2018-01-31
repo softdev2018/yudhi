@@ -1,0 +1,11 @@
+http://www.duniailkom.com/tutorial-belajar-javascript-dan-index-artikel-javascript/
+
+Cara memasukkan input javascript ke html
+Peletakan posisi kode javascript (window.onload=function(){}) event onload
+cara menampilkan error atau hasil dengan [console] console.log()
+aturan dasar penulisan javascript
+tipe data javascript
+
+https://www.youtube.com/watch?v=fYc0BEfdpVU
+
+https://www.youtube.com/watch?v=Xp2G3FWqOvQ

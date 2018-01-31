@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html" charset="utf-8">
+    <title>Belajar JavaScript</title>
+
+    <script type="text/javascript">
+      var nilai = "global";
+      function test(){
+        var nilai = "lokal";
+        var nilai_lokal = "nilai";
+        tanpa_var = "no_scope";
+        console.log(nilai);
+      }
+      test();
+      console.log(nilai); //global
+      //niali(variabel).length(method) titik sebagai pemanggil method
+      console.log(nilai.length); //panjang tulisan global
+      console.log(nilai.toUpperCase()); // menjadi huruf besar
+      console.log(tanpa_var);//bisa diakses
+      console.log(nilai_lokal);//error karena berada dalam lokal variabel
+    </script>
+  </head>
+  <body>
+    <h1>Belajar JavaScript</h1>
+    <p>Saya sedang belajar javascript</p>
+  </body>
+</html>

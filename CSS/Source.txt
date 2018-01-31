@@ -10,3 +10,6 @@ aturan dan cara penulisan.
 jenis selector dasar.({. untuk class}, {# untuk id}, {[href]})
 perioritas selector (!important)
 pengertian inheritance penurunan dari induknya.
+
+
+3. https://www.onphpid.com/belajar-membuat-template-web-menggunakan-bootstrap.html
