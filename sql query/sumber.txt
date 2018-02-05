@@ -1,0 +1,22 @@
+https://www.w3schools.com/sql/sql_intro.asp
+
+SQL (Struktur Query Languange) bahasa pemrograman khusus untuk manajemen data
+RDMBS. SQL perintah sederhana untuk memanipulasi data sering disebut (Query).
+
+command dalam sql :
+select : memilih data
+update : mengedit data
+delete : menghapus data
+insert : memasukkan data
+create database : membuat database
+alter database : memodifikasi
+creat table : membuat tabel
+drop table : menghapus tabel
+create index : membuat indek (search key)
+
+select * from database, WHERE, DISTINCT, COUNT, AND, OR, NOT, ORDER BY
+INSERT INTO, VALUES, NULL, IS NOT NULL, UPDATE, DELETE, SELECT TOP, MIN AND MAX
+COUNT,AVG,SUM.
+
+
+Untuk Update, Delete,  data harus disertai WHERE untuk menentukan dimana letak data.
