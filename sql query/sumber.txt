@@ -20,3 +20,14 @@ COUNT,AVG,SUM.
 
 
 Untuk Update, Delete,  data harus disertai WHERE untuk menentukan dimana letak data.
+
+
+6 Februari 2018
+
+https://www.malasngoding.com/membuat-form-login-dengan-php-dan-mysql/
+
+https://www.malasngoding.com/membuat-login-dengan-php-dan-mysql-md5/
+
+https://www.w3schools.com/sql/sql_create_db.asp
+
+http://youtube.com/watch?v=C--mu07uhQw
