@@ -1,0 +1,6 @@
+http://www.nyekrip.com/cara-koneksi-database-mysql-dengan-php/
+
+https://www.duniailkom.com/tutorial-php-mysql-perbedaan-mysql-dan-mysqli-extension-php/
+
+
+https://belajarphp.net/cara-menampilkan-database-mysql-menggunakan-php/
