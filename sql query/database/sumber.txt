@@ -4,3 +4,13 @@ https://www.duniailkom.com/tutorial-php-mysql-perbedaan-mysql-dan-mysqli-extensi
 
 
 https://belajarphp.net/cara-menampilkan-database-mysql-menggunakan-php/
+
+8 Februari 2018
+
+http://jagowebdev.com/menampilkan-data-tabel-database-mysql-dengan-php/
+
+http://jagowebdev.com/menampilkan-hasil-input-form-html-dengan-php/
+
+http://jagowebdev.com/menampilkan-data-dari-beberapa-tabel-mysql-join-pada-mysql/
+
+http://jagowebdev.com/menghubungkan-mysql-dengan-php-mysqli-dan-pdo/

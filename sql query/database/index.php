@@ -1,18 +1,22 @@
-<h2>List Data</h2>
+<h2>List Mahasiswa</h2>
 <table border="1">
-    <tr><th>NO</th><th>NAMA</th><th>FAKULTAS</th><th>NIM</th></tr>
-    <?php
-    include 'koneksi.php';
-    $mahasiswa = mysqli_query($con, "SELECT * from data_base");
-    $no=1;
-    foreach ($mahasiswa as $row){
-        "<tr>
-            <td>$no</td>
-            <td>".$row['nama']."</td>
-            <td>".$row['subject']."</td>
-            <td>".$row['isi']."</td>
-        </tr>";
-        $no++;
-    }
-    ?>
+   <tr><th>NO</th><th>NIM</th><th>NAMA</th><th>JURUSAN</th></tr>
+   <?php
+   include "koneksi.php";
+   $data=mysqli_query($con,"SELECT * from data_base");
+   if ($data === FALSE) {
+   die(mysql_error());
+   }
+   $no=1;
+   while($hasil=mysqli_fetch_array($data)){
+
+   echo "<tr>
+   <td>$no</td>
+   <td>$hasil[nama]</td>
+   <td>$hasil[subject]</td>
+   <td>$hasil[isi]</td>
+   </tr>";
+   $no++;
+   }
+   ?>
 </table>
