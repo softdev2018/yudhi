@@ -58,6 +58,7 @@ $DB_name = "join";
   echo '<table>
   		<thead>
   			<tr>
+          <th>No</th>
   				<th>ID</th>
   				<th>Nama</th>
   				<th>Tanggal</th>
@@ -65,15 +66,17 @@ $DB_name = "join";
   			</tr>
   		</thead>
   		<tbody>';
-
+$no=1;
   while ($row = mysqli_fetch_array($query))
   {
   	echo '<tr>
+        <td>'.$no.'</td>
   			<td>'.$row['id_pelanggan'].'</td>
   			<td>'.$row['nama'].'</td>
         <td>'.$row['tgl_transaksi'].'</td>
   			<td>'.number_format($row['total_transaksi'], 0, ',', '.').'</td>
   		</tr>';
+      $no++;
   }
   echo '
   	</tbody>

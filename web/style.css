@@ -1,0 +1,183 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body{
+  font-family: quicksand;
+}
+
+header{
+  width: 100%;
+  height: 100vh;
+  background: url(BG.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+ .content{
+   max-width: 980px;
+   margin: 4em auto;
+   font-size: 20px;
+   line-height: 30px;
+   text-align: justify;
+ }
+
+ .logo{
+   position: fixed;
+   float: left;
+   margin: 16px 30px;
+   color: #151515;
+   font-weight: bold;
+   font-size: 24px;
+ }
+
+ nav{
+   position: fixed;
+   width: 100%;
+ }
+
+ nav ul{
+   list-style: none;
+   background: rgba(0, 0, 0, 0);
+   overflow: hidden;
+   color: #fff;
+   text-align: center;
+   padding: 0;
+   margin: 0;
+   transition: 1s;
+ }
+
+nav.black ul{
+  background: #000;
+}
+
+ nav ul li{
+  display: inline-block;
+  padding: 20px;
+ }
+
+ nav ul li a{
+   text-decoration: none;
+   color: #151515;
+   font-size: 20px;
+ }
+
+ .menu-icon{
+   width: 100%;
+   background: #000;
+   text-align: right;
+   box-sizing: border-box;
+   padding: 15px 24px;
+   cursor: pointer;
+   color: #fff;
+   display: none;
+ }
+
+ nav.black ul li a{
+   color: #fff;
+ }
+
+ nav.black .logo{
+    color: #fff;
+ }
+
+.login{
+  float: right;
+}
+.active{
+  color: #fff;
+  background: #E2472F;
+  border-radius: 6px;
+  padding: 5px 10px;
+}
+
+/* about */
+.wide{
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+
+.wide i{
+  opacity: 0.6;
+}
+
+.container{
+  max-width: 980px;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 64px;
+  padding-bottom: 64;
+}
+
+.justify{
+  text-align: justify;
+}
+
+.kata{
+  text-align: justify;
+}
+
+.row{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.col-sm-4{
+  padding: 0px 8px;
+}
+
+.col-sm-4 img{
+  width: 150px;
+  border-radius: 8px;
+  margin-bottom:8px;
+}
+
+
+ @media(max-width:580px) {
+   .logo{
+     position: fixed;
+     top: 0;
+     margin-top: 16px;
+     color: #fff;
+   }
+
+   .login{
+     position: fixed;
+     left: 110px;
+     top: 0;
+     height: 0;
+   }
+
+   nav ul{
+     max-height: 0px;
+     background: #000;
+   }
+
+   nav.black ul{
+     background: #000;
+   }
+
+   .showing{
+     max-height: 25em;
+   }
+
+   nav ul li{
+     box-sizing: border-box;
+     width: 100%;
+     padding: 20px 0;
+     text-align: center;
+   }
+
+   nav ul li a{
+     color: #fff;
+   }
+
+   .menu-icon{
+     display: block;
+   }
+
+ }
