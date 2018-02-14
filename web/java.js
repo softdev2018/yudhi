@@ -25,11 +25,14 @@
     }else if(menu == "about"){
       $('.badan').load('about.php');
       $("nav ul").toggleClass("showing");
-    }else if(menu == "blog"){
-      $('.badan').load('blog.php');
-      $("nav ul").toggleClass("showing");
     }else if(menu == "contact"){
       $('.badan').load('contact.php');
+      $("nav ul").toggleClass("showing");
+    }else if(menu == "never"){
+      $('.badan').load('never.php');
+      $("nav ul").toggleClass("showing");
+    }else if(menu == "test"){
+      $('.badan').load('about.php');
       $("nav ul").toggleClass("showing");
     }
   });

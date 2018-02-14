@@ -14,15 +14,15 @@
   <div class="row">
     <div class="col-sm-4">
       <p>Name</p>
-      <img src="a.jpg" class="img-circle person" alt="singapore">
+      <img src="image/a.jpg" class="img-circle person" alt="singapore">
     </div>
     <div class="col-sm-4">
       <p>Name</p>
-      <img src="a.jpg" class="img-circle person" alt="singapore">
+      <img src="image/a.jpg" class="img-circle person" alt="singapore">
     </div>
     <div class="col-sm-4">
       <p>Name</p>
-      <img src="a.jpg" class="img-circle person" alt="singapore">
+      <img src="image/a.jpg" class="img-circle person" alt="singapore">
     </div>
   </div>
   <div class="container" id="contact">

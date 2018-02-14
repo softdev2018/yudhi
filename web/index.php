@@ -24,10 +24,10 @@
           <ul>
             <li><a class="klik_menu" id="home" style="cursor: pointer;">Home</a></li>
             <li><a class="klik_menu" id="about" style="cursor: pointer;">About</a></li>
-            <li><a class="klik_menu" id="blog" style="cursor: pointer;">Blog</a></li>
             <li><a class="klik_menu" id="contact" style="cursor: pointer;">Contact</a></li>
+            <li><a class="klik_menu" id="never">Data</a></li>
             <div class="login">
-               <li><a class="active" href="login/index.php">Log In</a></li>
+               <li><a class="active" href="admin/index.php">Log In</a></li>
             </div>
           </ul>
         </div>

@@ -35,26 +35,26 @@ if($_SESSION){
 	<![endif]-->
 </head>
 <body>
-	
+
 	<div class="container">
 		<div class="row">
 			<h2>Log In</h2>
 			<div class="login">
-				
+
 				<?php
 				if(isset($_POST['login'])){
 					include("koneksi.php");
-					
+
 					$username	= $_POST['username'];
 					$password	= md5($_POST['password']);
 					$level		= $_POST['level'];
-					
+
 					$query = mysqli_query($koneksi, "SELECT * FROM users WHERE username='$username' AND password='$password'");
 					if(mysqli_num_rows($query) == 0){
 						echo '<div class="alert alert-danger">Upss...!!! Login gagal.</div>';
 					}else{
 						$row = mysqli_fetch_assoc($query);
-						
+
 						if($row['level'] == 1 && $level == 1){
 							$_SESSION['username']=$username;
 							$_SESSION['level']='admin';
@@ -73,7 +73,7 @@ if($_SESSION){
 					}
 				}
 				?>
-				
+
 				<form role="form" action="" method="post">
 					<div class="form-group">
 						<input type="text" name="username" class="form-control" placeholder="Username" required autofocus />
@@ -94,6 +94,9 @@ if($_SESSION){
 					</div>
 					<div class="form-group">
 						<input type="submit" name="daftar" class="btn btn-primary btn-block" value="Daftar" onclick="location.href='daftar.php';" />
+					</div>
+					<div class="form-group">
+						<input type="submit" name="back" class="btn btn-primary btn-block" value="Kembali KeHalaman" onclick="location.href='../';" />
 					</div>
 				</form>
 			</div>
